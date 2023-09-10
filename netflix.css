@@ -1,0 +1,89 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 0px;
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://i0.wp.com/godofindia.com/wp-content/uploads/2017/05/rajinikanth.jpg?fit=2600%2C1614&ssl=1');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.hero-content {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.featured {
+    padding: 30px 10px;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+footer {
+
+    text-align: center;
+    padding: 15px 0;
+    background-color: #000;
+}
+a:hover{
+    background-color: rgb(9, 165, 221);
+
+}
